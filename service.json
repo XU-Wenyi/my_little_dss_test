@@ -1,0 +1,24 @@
+{
+  "name": "MyExample",
+  "version": "0.0.0",
+  "keywords": [
+    "segmentation",
+    "brats"
+  ],
+  "shortdesc": "DSS my service",
+  "longdesc": "Given a source brain image, run brain tumour segmentation",
+  "tags": [
+    {
+      "name": "Source",
+      "type": "MainImage",
+      "hint": "The anatomical image onto which you want to warp the segmentation",
+      "required": true
+    },
+    {
+      "name": "SourceSeg",
+      "type": "OverlayImage",
+      "hint": "The segmentation of the source image",
+      "required": false
+    }
+  ]
+}
