@@ -3,23 +3,23 @@
   "version": "0.0.0",
   "keywords": [
     "segmentation",
-    "brats"
+    "breast cancer"
   ],
   "shortdesc": "DSS my service",
-  "longdesc": "Given a source brain image, run brain tumour segmentation",
+  "longdesc": "Given dce and dwi images, run segmentation algorithm",
   "url":"https://10.88.30.1:8080",
   "tags": [
     {
-      "name": "Source",
+      "name": "DCE",
       "type": "MainImage",
-      "hint": "The anatomical image onto which you want to warp the segmentation",
+      "hint": "DCE Image",
       "required": true
     },
     {
-      "name": "SourceSeg",
-      "type": "OverlayImage",
-      "hint": "The segmentation of the source image",
-      "required": false
+      "name": "DWI",
+      "type": "MainImage",
+      "hint": "DWI Image",
+      "required": true
     }
   ]
 }
