@@ -11,13 +11,13 @@
   "tags": [
     {
       "name": "DCE",
-      "type": "MainImage",
+      "type": "MainImage1",
       "hint": "DCE Image",
       "required": true
     },
     {
       "name": "DWI",
-      "type": "MainImage",
+      "type": "MainImage2",
       "hint": "DWI Image",
       "required": true
     }
