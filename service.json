@@ -11,15 +11,33 @@
   "tags": [
     {
       "name": "DCE",
-      "type": "MainImage1",
+      "type": "MainImage",
       "hint": "DCE Image",
       "required": true
     },
     {
       "name": "DWI",
-      "type": "MainImage2",
+      "type": "OverlayImage",
       "hint": "DWI Image",
-      "required": true
+      "required": false
+    },
+    {
+      "name": "D1",
+      "type": "PointLandmark",
+      "hint": "other DCE",
+      "required": false
+    },
+    {
+      "name": "D2",
+      "type": "PointLandmark",
+      "hint": "two land mark see if it will be the same",
+      "required": false
+    },
+    {
+      "name": "D3",
+      "type": "MainImage",
+      "hint": "try main image if they will be the same",
+      "required": false
     }
   ]
 }
