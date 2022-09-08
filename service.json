@@ -23,19 +23,19 @@
     },
     {
       "name": "D1",
-      "type": "AdditionalImage",
+      "type": "OverlayImage",
       "hint": "add DCE",
       "required": false
     },
     {
       "name": "D2",
-      "type": "AdditionalImage",
+      "type": "OverlayImage",
       "hint": "second add dce",
       "required": false
     },
     {
       "name": "D3",
-      "type": "MainImage",
+      "type": "OverlayImage",
       "hint": "try main image if they will be the same",
       "required": false
     }
