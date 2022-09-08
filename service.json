@@ -23,14 +23,14 @@
     },
     {
       "name": "D1",
-      "type": "PointLandmark",
-      "hint": "other DCE",
+      "type": "AdditionalImage",
+      "hint": "add DCE",
       "required": false
     },
     {
       "name": "D2",
-      "type": "PointLandmark",
-      "hint": "two land mark see if it will be the same",
+      "type": "AdditionalImage",
+      "hint": "second add dce",
       "required": false
     },
     {
