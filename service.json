@@ -73,7 +73,7 @@
         {
             "name": "DCE9",
             "type": "OverlayImage",
-            "hint": "add DCE Image 9",
+            "hint": "add DCE Image9",
             "required": false
         }
     ]
