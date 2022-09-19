@@ -1,43 +1,80 @@
 {
-  "name": "MyExample",
-  "version": "0.0.0",
-  "keywords": [
-    "segmentation",
-    "breast cancer"
-  ],
-  "shortdesc": "DSS my service",
-  "longdesc": "Given dce and dwi images, run segmentation algorithm",
-  "url":"https://10.88.30.1:8080",
-  "tags": [
-    {
-      "name": "DCE",
-      "type": "MainImage",
-      "hint": "DCE Image",
-      "required": true
-    },
-    {
-      "name": "DWI",
-      "type": "OverlayImage",
-      "hint": "DWI Image",
-      "required": false
-    },
-    {
-      "name": "D1",
-      "type": "OverlayImage",
-      "hint": "add DCE",
-      "required": false
-    },
-    {
-      "name": "D2",
-      "type": "OverlayImage",
-      "hint": "second add dce",
-      "required": false
-    },
-    {
-      "name": "D3",
-      "type": "OverlayImage",
-      "hint": "try main image if they will be the same",
-      "required": false
-    }
-  ]
+    "name": "DCE example",
+    "version": "22.09.19",
+    "keywords": [
+        "segmentation",
+        "breast cancer",
+        "modality DCE"
+    ],
+    "shortdesc": "DSS DCE service",
+    "longdesc": "Given dce image(s), run segmentation algorithm",
+    "url": "https://10.88.30.1:8080",
+    "tags": [
+        {
+            "name": "DCE",
+            "type": "MainImage",
+            "hint": "DCE Image",
+            "required": true
+        },
+        {
+            "name": "DCE0",
+            "type": "OverlayImage",
+            "hint": "add DCE Image 0",
+            "required": false
+        },
+        {
+            "name": "DCE1",
+            "type": "OverlayImage",
+            "hint": "add DCE Image 1",
+            "required": false
+        },
+        {
+            "name": "DCE2",
+            "type": "OverlayImage",
+            "hint": "add DCE Image 2",
+            "required": false
+        },
+        {
+            "name": "DCE3",
+            "type": "OverlayImage",
+            "hint": "add DCE Image 3",
+            "required": false
+        },
+        {
+            "name": "DCE4",
+            "type": "OverlayImage",
+            "hint": "add DCE Image 4",
+            "required": false
+        },
+        {
+            "name": "DCE5",
+            "type": "OverlayImage",
+            "hint": "add DCE Image 5",
+            "required": false
+        },
+        {
+            "name": "DCE6",
+            "type": "OverlayImage",
+            "hint": "add DCE Image 6",
+            "required": false
+        },
+        {
+            "name": "DCE7",
+            "type": "OverlayImage",
+            "hint": "add DCE Image 7",
+            "required": false
+        },
+        {
+            "name": "DCE8",
+            "type": "OverlayImage",
+            "hint": "add DCE Image 8",
+            "required": false
+        },
+        {
+            "name": "DCE9",
+            "type": "OverlayImage",
+            "hint": "add DCE Image 9",
+            "required": false
+        }
+    ]
 }
